@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+.foodMenu{
+    width: 320px;
+    height: 465px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+}
+.foodMenu img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+}
+h1,h2{
+    text-align: center;
+    padding: 10px 0;
+}
+.foodMenu p{
+    width: 90%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid gray;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+}
+
+#prev{
+    background-color: red;
+
+}
+#next{
+    background-color: blue;
+
+}
+#random{
+    background-color:seagreen;
+
+}
