@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Color</title>
+    <style>
+        #change{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="change"> Change Color</h2>
+
+    <script>
+        let colors = ['blue','pink','yellow','red','green','purple','cyan','orange']
+        let change = document.getElementById('change');
+        let body = document.querySelector('body');
+        let colorIndex = 1 ;
+        body.style.backgroundColor = colors[colorIndex] // setting default bg color to body
+        change.addEventListener('click',function(){
+            colorIndex = (Math.trunc(Math.random()*colors.length))
+            //console.log(colors.length)
+            body.style.backgroundColor = colors[colorIndex] 
+           
+        })
+    </script>
+</body>
+</html>
