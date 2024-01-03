@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid black;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+table{
+    background-color: rgba(0, 0, 0, 0.206);
+    padding: 20px;
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+
+}
+button{
+    padding: 10px;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.star, .dot{
+    font-size: 18px;
+}
